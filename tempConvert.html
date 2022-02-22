@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="TopBarMain.css">
+  <link rel="stylesheet" href="index2.css">
+  <meta name="description" content="Veillax135 is a youtube channel devoted to snippits, clips and recording games">
+  <meta property="og:description" content="Veillax135 is a youtube channel devoted to snippits, clips and recording games">
+  <title>Temperature Converter  | Veillax135</title>
+</head>
+<body>
+   <div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="404/404.html">News</a>
+      <a href="tempConvert.html" class='disabled'>Temperature Converter</a>
+      <a href="Discord.html" >Discord</a>
+      <a href="mcservers.html">Minecraft Servers</a>
+      <a href="VanillaMinecraft.html">Vanilla Minecraft</a>
+      <a href="ModdedMinecraft.html">Modded Minecraft</a>
+      <a href="MinecraftResources.html">Minecraft Resources</a>
+      </div>
+<style>
+.centerText {
+  text-align: center;
+}
+.center {
+  margin: 0 auto;
+    display: block;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+@media (min-width: 700px) {
+  .center {
+      font-size: 30px;
+  }
+}
+@media (min-width: 1000px) {
+  .center {
+      font-size: 30px;
+  }
+}
+
+</style>
+<button style="cursor: not-allowed;" class="center" ><h2>Fahrenheit to Celsius converter</h2>
+
+<p>Click the button below to and enter a value in the popup menu.</p></button>
+
+<button style="cursor: pointer;" onclick="promptBox()" class='center'>Click me to convert!</button>
+
+<p id="demo" class='centerText center'></p>
+
+
+
+
+<script>
+
+function promptBox() {
+let tempF = prompt("Please enter a temperature in farenheit");
+ if (tempF == null || tempF == "") {
+    text = "NaN";
+  } else {
+    text = Math.round(toCelsius(tempF));
+  }
+  document.getElementById("demo").innerHTML = text;
+
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+}
+
+
+
+</script>
+</body>
+</html>

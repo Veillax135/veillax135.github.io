@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /404/
+Disallow: /old404/
+Disallow: /log
+Disallow: /google2be79f88e10980ba.html
+Sitemap: sitemap.xml
