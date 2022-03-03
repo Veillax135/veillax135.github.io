@@ -42,8 +42,10 @@
 
 
   <script>
+  easterEggInt(0, 101);
+
 function easterEggInt(min, max) {
-  int randomNum = Math.floor(Math.random() * (101 - 0)) + 0;
+  int randomNum = Math.floor(Math.random() * (max - min)) + min;
   alert(randomNum);
   if (randomNum == 100)
   {
