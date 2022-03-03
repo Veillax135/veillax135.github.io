@@ -9,19 +9,19 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>Error 404 | Page Not Found</title>
 </head>
 
 <body>
-  
+
 	<div id="notfound">
 		<div class="notfound-bg"></div>
 		<div class="notfound">
 			<div class="notfound-404">
 				<h1>404</h1>
 			</div>
-			<h2>Its freezing up here, How about heading back down.</h2>
+			<h2 class='easterEgg2'>Its freezing up here, How about heading back down.</h2>
 			<div class="notfound-social">
 				<a href="https://steamcommunity.com/id/Veillax135/" target='_blank'><i class="fa fa-steam"></i></a>
 				<a href="https://github.com/veillax135" target='_blank'><i class="fa fa-github"></i></a>
@@ -30,8 +30,8 @@
 			</div>
       <a href="index.html" id='easterEgg'>Take some Tea</a>
       <br>
-      
-      
+
+
 			<a href="index.html">Head back Down</a>
       <br>
       <h5>Exit code 404 | Page not found</h5>
@@ -40,10 +40,22 @@
     </div>
 	</div>
 
-  
+
   <script src='scripts.js' type="text/javascript">
-        window.onload = callOnPageLoad;
-        
+  easterEggInt(0, 101)
+
+function easterEggInt(min, max) {
+  int randomNum = Math.floor(Math.random() * (max - min)) + min;
+  if (randomNum == 100)
+  {
+  document.getElementById("easterEgg").style.display = "";
+  document.getElementById("easterEgg").innerHTML = "ITS FREEZING UP HERE, HOW SOME TEA?";
+} else {
+    document.getElementById("easterEgg").innerHTML = "ITS FREEZING UP HERE, HOW ABOUT HEADING BACK DOWN.";
+    document.getElementById("easterEgg").style.display = "none";
+}
+}
+
   </script>
 </body>
 
