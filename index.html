@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--tab title/tab name-->
     <title>Home | Veillax</title>
-    <!--html character encoding format-->
     <meta charset="utf-8">
-    <!--viewport meta element: important for responsive web design and mobile-first design-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--site/page description-->
-    <meta name="description" content="">
-    <!--site/page author-->
-    <meta name="author" content="Veillax">
-    <!--open graph meta elements-->
-    <meta property="og:title" content="Veillax">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="veillax.com">
-    <meta property="og:description" content="Now on https://veillax.com!">
+    <meta name="description" content="Home | Veillax">
+    <meta property="og:title" content="Home | Veillax">
     <meta property="og:image" content="image.png">
-    <!--page icon-->
-    <link rel="icon" href="img/favicon.ico">
-    <!--icon used on Apple devices when the page is added to the user’s home screen-->
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <!--css stylesheet link-->
-    <link rel="stylesheet" href="style.css">
   </head>
     <body data-bs-theme="dark">
-        <div id="navbar-div"></div>
+        <div id="navbar-div">
+          <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img alt="Logo" src="https://raw.githubusercontent.com/Veillax/veillax.github.io/main/img/1683420300-32.ico"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+        
+                </div>
+            </div>
+            </nav>
+        </div>
         <div id="contents">Hello, World!</div>
         <div id="footer-div"></div>
         <script type="text/javascript" src="js/inject.js"></script>
