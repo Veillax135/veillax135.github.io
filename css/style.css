@@ -1,0 +1,18 @@
+.container {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dark {
+    background-color: #17141F !important;
+    color: #ADB5BD !important;
+
+}
+
+#footer-div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
