@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader - Watch</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5/dist/pulse/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+        }
+
+        .container {
+            flex: auto;
+            max-width: 1000px; /* Adjust this value to control overall width */
+            margin: auto;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .dark_bg {
+            background-color: #17141F !important;
+            color: #ADB5BD !important;
+        }
+
+        html::-webkit-scrollbar {
+            display: none;
+        }
+        
+        html {
+            -ms-overflow-style: none;
+        }
+    </style>
+    <script>
+        // Function to handle form submission using JavaScript
+        function submitForm() {
+            var linkInput = document.getElementById('youtubeLink');
+            var linkValue = linkInput.value.trim();
+
+            // Regular expression to match YouTube video URLs
+            var youtubeRegex = /^(https?:\/\/)?(www\.)?(youtube\.com\/(watch\?v=|embed\/|v\/)|youtu\.be\/|youtube\.com\/shorts\/)([a-zA-Z0-9_-]{11})/;
+
+            if (!youtubeRegex.test(linkValue)) {
+                alert('Please enter a valid YouTube video link.');
+                return false;
+            }
+
+            // Redirect to the watch route with the video id
+            var videoId = linkValue.match(/[a-zA-Z0-9_-]{11}/)[0];
+            window.location.href = 'http://172.172.79.84:5000/api/new/getVideo?id=' + videoId;
+
+            // Prevent the default form submission
+            return false;
+        }
+    </script>
+</head>
+<body class="dark_bg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary" data-bs-theme="primary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <h3 class="active" style="color: white;">  Youtube Downloader
+                            <span class="visually-hidden">(current)</span>
+                        </h3>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="watch" class="btn btn-dark">
+                        <span class="material-symbols-outlined">home_app_logo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="container">
+        <h1 class="text-center">YouTube Downloader</h1>
+        <form method="POST" action="/watch" onsubmit="return submitForm();">
+            <div class="mb-3">
+                <label for="youtubeLink" class="form-label">Enter a YouTube link:</label>
+                <input type="text" class="form-control dark_bg" id="youtubeLink" name="link" placeholder="https://www.youtube.com/watch?v=..." required>
+            </div>
+            <button type="submit" class="btn btn-primary">Download</button>
+        </form>
+    </div>
+    <div style="margin-top: 20px; width: 700px;" class='text-center col-sm-10 col-md-8 mx-auto'>
+        <h2>How to use</h2>
+        <h5>Put in a link, select a quality, and click download!<br><br>With this site, there's no ads, no sketchy redirects, no extra stuff in the name, it's just a file download.</h5>
+    </div>
+</body>
+</html>
