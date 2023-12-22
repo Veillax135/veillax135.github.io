@@ -72,6 +72,3 @@ function load() {
             console.error('Error fetching track data:', error);
         });
 }
-
-// Trigger the load function on page load
-load();
