@@ -1,7 +1,7 @@
 // watch.js
 const urlParams = new URLSearchParams(window.location.search);
 const videoId = urlParams.get('v');
-const apiBase = "/php/proxy.php"; // Point to the PHP proxy location
+const apiBase = "http://172.172.79.84:5000"; // Point to the PHP proxy location
 let elapsed = 0;
 let eta = 0;
 
@@ -43,7 +43,7 @@ function barCode() {
 function load() {
   var dataBox = document.getElementById('databox')
   console.log("Fetching track data from API...");
-  axios.get(apiBase + "?endpoint=api/get/trackDataYT&v=" + videoId)
+  axios.get(apiBase + "api/get/trackDataYT?id=" + videoId)
     .then(response => {
       console.log("Track data received:", response.data);
       videoLength = parseInt(response.data.length);
@@ -60,7 +60,7 @@ function load() {
       barCode();
 
       console.log("Fetching video data from API...");
-      axios.get(apiBase + "?endpoint=api/get/video&v=" + videoId)
+      axios.get(apiBase + "/api/get/video?id=" + videoId)
         .then(response2 => {
           console.log('Video download completed:', response2.data);
           // Handle the video data here
