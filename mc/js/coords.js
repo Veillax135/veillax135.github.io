@@ -60,7 +60,7 @@ function handleDistChange() {
     const point1 = [X1, Y1, Z1];
     const point2 = [X2, Y2, Z2];
     const dist = distance(point1, point2);
-    document.getElementById('D').value = dist.toFixed(2); // Display the distance rounded to  2 decimal places
+    document.getElementById('D').value = dist.toFixed(2);
 }
 
 // Event handler for Overworld to Nether conversion
@@ -85,13 +85,17 @@ function handleNeOvChange() {
     document.getElementById('oZ').value = result[3];
 }
 
-
+// Reset handler for Coordinates
 function resetCoords() {
     document.getElementById('oX').value = "0";
     document.getElementById('oY').value = "64";
     document.getElementById('oZ').value = "0";
+    document.getElementById('nX').value = "0";
+    document.getElementById('nY').value = "64";
+    document.getElementById('nZ').value = "0";
 }
 
+// Reset handler for Distance
 function resetDist() {
     document.getElementById('X1').value = "0";
     document.getElementById('Y1').value = "0";

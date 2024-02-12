@@ -30,6 +30,29 @@
         .calculateDistance {
             width: 160px;
         }
+
+        #D {
+            background: rgb(255, 255, 255); color: rgb(74, 74, 74);
+        }
+
+        #commands{
+            display: flex;
+            justify-content: center;
+        }
+
+        #info{
+            display: flex;
+            justify-content: center;
+        }
+
+        #generate{
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #18161c;
+        }
         
     </style>
 </head>
@@ -152,20 +175,26 @@
                             <td class="table-input"><input class="calculateDistance" id="Z2" type="text" name="Z2"
                                     value="0" onfocus="this.select()"></td>
                             <td class="table-icon"><i class="fas fa-arrows-h" aria-hidden="true"></i></td>
-                            <td class="table-input"><input id="D" type="text" name="D1" value="0"
-                                    style="background: rgb(255, 255, 255); color: rgb(74, 74, 74);"></td>
+                            <td class="table-input"><input id="D" type="text" name="D1" value="0"></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <a class="btn btn-danger" onclick="resetDist()">Reset</a>
         </div>
+        <br><hr><br>
+        <p id="info" class="">This tool will combine many commands into one command block!<br> Simply type in commands, choose a separator, and press 'Generate'!</p>
+        <div id="generate">
+            <a type="button" class="btn btn-primary">Generate</a>
+        </div>
+        <br>
+        <div id="commands" class="container align-items-center justify-content-center">
+			<textarea id="input-commands" rows="14" cols="120" placeholder="Write or paste a bunch of commands in here, separated by whatever you specified above!"></textarea>
+		</div>
     </div>
+    <br><br><br>
     <div id="footer-div">
-        <footer id="footer" class="bg-dark text-center ">
-            <!-- Grid container -->
-            <div class="container p-4">
-            </div>
+        <footer id="footer" class="bg-dark text-center">
             <div class="text-center p-3">
                 Made with ♥ by Veillax
             </div>
