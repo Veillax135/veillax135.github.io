@@ -24,7 +24,7 @@ function condense(commands) {
     return base;
 }
 
-function parseAndProcessCommands() {
+function proccessCommands() {
     // Get the textarea element
     const textarea = document.getElementById('input-commands');
     const text = textarea.value;
