@@ -20,9 +20,17 @@
     <link rel="apple-touch-icon" href="https://www.veillax.com/img/apple-touch-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        .table-input input {
-            width: 100%;
+        .convertOvtoNe{
+            width: 195px;
         }
+        .convertNetoOv{
+            width: 195px;
+        }
+
+        .calculateDistance {
+            width: 160px;
+        }
+        
     </style>
 </head>
 
@@ -68,7 +76,7 @@
         <br><br>
         <div class="text-center">
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <th colspan="3">Overworld coords</th>
@@ -109,7 +117,7 @@
         <br><br>
         <div class="text-center">
             <div class="table-responsive">
-                <table class="table table-striped table-bordered">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <th colspan="3">Location 1</th>
@@ -120,11 +128,11 @@
                             <th><label for="X1">X<sub>1</sub></label></th>
                             <th><label for="Y1">Y<sub>1</sub></label></th>
                             <th><label for="Z1">Z<sub>1</sub></label></th>
-
+                            <th width="1"></th>
                             <th><label for="X2">X<sub>2</sub></label></th>
                             <th><label for="Y2">Y<sub>2</sub></label></th>
                             <th><label for="Z2">Z<sub>2</sub></label></th>
-
+                            <th width="1"></th>
                             <th><label for="D">Distance</label></th>
                         </tr>
                     </thead>
@@ -136,13 +144,14 @@
                                     value="0" min="0" onfocus="this.select()"></td>
                             <td class="table-input"><input class="calculateDistance" id="Z1" type="text" name="Z1"
                                     value="0" onfocus="this.select()"></td>
+                            <td class="table-icon"><i class="fas fa-arrows-h" aria-hidden="true"></i></td>
                             <td class="table-input"><input class="calculateDistance" id="X2" type="text" name="X2"
                                     value="0" onfocus="this.select()"></td>
                             <td class="table-input"><input class="calculateDistance" id="Y2" type="text" name="Y2"
                                     value="0" min="0" onfocus="this.select()"></td>
                             <td class="table-input"><input class="calculateDistance" id="Z2" type="text" name="Z2"
                                     value="0" onfocus="this.select()"></td>
-
+                            <td class="table-icon"><i class="fas fa-arrows-h" aria-hidden="true"></i></td>
                             <td class="table-input"><input id="D" type="text" name="D1" value="0"
                                     style="background: rgb(255, 255, 255); color: rgb(74, 74, 74);"></td>
                         </tr>
@@ -151,9 +160,6 @@
             </div>
             <a class="btn btn-danger" onclick="resetDist()">Reset</a>
         </div>
-        <script>
-
-        </script>
     </div>
     <div id="footer-div">
         <footer id="footer" class="bg-dark text-center ">
