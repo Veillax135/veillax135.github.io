@@ -1,4 +1,4 @@
-function chain(commands) {
+function condense(commands) {
     /**
      * Generates a command sequence using falling sand entities to execute a list of commands.
      *
@@ -24,3 +24,12 @@ function chain(commands) {
     return base;
 }
 
+function parseAndProcessCommands() {
+    // Get the textarea element
+    const textarea = document.getElementById('input-commands');
+    const text = textarea.value;
+    const commandsArray = text.split('\n');
+    const filteredCommandsArray = commandsArray.filter(command => command.trim().length >  0);
+    
+    document.getElementById("output-command").value = condense(filteredCommandsArray);
+}

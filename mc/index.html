@@ -35,7 +35,7 @@
             background: rgb(255, 255, 255); color: rgb(74, 74, 74);
         }
 
-        #commands{
+        .commands{
             display: flex;
             justify-content: center;
         }
@@ -49,11 +49,10 @@
             display: flex;
             justify-content: center;
         }
-
-        .footer {
-            background-color: #18161c;
+          
+        #footer {
+            background-color: #201d26 !important;
         }
-        
     </style>
 </head>
 
@@ -188,9 +187,13 @@
             <a type="button" class="btn btn-primary">Generate</a>
         </div>
         <br>
-        <div id="commands" class="container align-items-center justify-content-center">
+        <div class="commands container align-items-center justify-content-center">
 			<textarea id="input-commands" rows="14" cols="120" placeholder="Write or paste a bunch of commands in here, separated by whatever you specified above!"></textarea>
 		</div>
+        <br><br>
+        <div class="commands container align-items-center justify-content-center">
+            <textarea id="output-command" rows="14" cols="120" placeholder="Your command will appear here" readonly></textarea>
+        </div>
     </div>
     <br><br><br>
     <div id="footer-div">
