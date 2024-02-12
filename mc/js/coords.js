@@ -39,7 +39,10 @@ function distance(point1, point2) {
     const running_time = dist/running_speed/60
     const flying_time = dist/flying_speed/60
 
-    return [dist, walking_time, running_time, flying_time];
+    output = [dist, walking_time, running_time, flying_time]
+    console.log(output)
+
+    return output;
 }
 
 // Attach event listeners to the distance calculation inputs
@@ -72,7 +75,7 @@ function handleDistChange() {
     const point2 = [X2, Y2, Z2];
     const dist = distance(point1, point2);
     document.getElementById('D').value = dist[0].toFixed(2);
-    document.getElementById('speed').value = `It will take ${dist[1]} minutes while walking, ${dist[2]} minutes while running, and ${dist[3]} minutes while flying to reach your destination`;
+    document.getElementById('dist_speed').value = `It will take ${dist[1]} minutes while walking, ${dist[2]} minutes while running, and ${dist[3]} minutes while flying to reach your destination`;
 }
 
 // Event handler for Overworld to Nether conversion
