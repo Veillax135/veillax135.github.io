@@ -35,9 +35,9 @@ function distance(point1, point2) {
 
     const dist = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2);
 
-    const walking_time = dist/walking_speed/60
-    const running_time = dist/running_speed/60
-    const flying_time = dist/flying_speed/60
+    const walking_time = (dist/walking_speed/60).toFixed(2)
+    const running_time = (dist/running_speed/60).toFixed(2)
+    const flying_time = (dist/flying_speed/60).toFixed(2)
 
     output = [dist, walking_time, running_time, flying_time]
     console.log(output)
