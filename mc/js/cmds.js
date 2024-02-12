@@ -25,7 +25,6 @@ function condense(commands) {
 }
 
 function proccessCommands() {
-    // Get the textarea element
     const textarea = document.getElementById('input-commands');
     const text = textarea.value;
     const commandsArray = text.split('\n');
