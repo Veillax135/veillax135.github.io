@@ -28,7 +28,18 @@ function convert(realm, x, z, y = null) {
 function distance(point1, point2) {
     const [x1, y1, z1] = point1;
     const [x2, y2, z2] = point2;
-    return Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2);
+
+    const walking_speed = 4.3;
+    const running_speed = 5.6;
+    const flying_speed = 7.2;
+
+    const dist = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2);
+
+    const walking_time = dist/walking_speed/60
+    const running_time = dist/running_speed/60
+    const flying_time = dist/flying_speed/60
+
+    return [dist, walking_time, running_time, flying_time];
 }
 
 // Attach event listeners to the distance calculation inputs
@@ -60,7 +71,10 @@ function handleDistChange() {
     const point1 = [X1, Y1, Z1];
     const point2 = [X2, Y2, Z2];
     const dist = distance(point1, point2);
-    document.getElementById('D').value = dist.toFixed(2);
+    document.getElementById('D').value = dist[0].toFixed(2);
+    document.getElementById('walking_time').value = dist[1];
+    document.getElementById('running_time').value = dist[2];
+    document.getElementById('flying_time').value = dist[3];
 }
 
 // Event handler for Overworld to Nether conversion
@@ -103,4 +117,8 @@ function resetDist() {
     document.getElementById('X2').value = "0";
     document.getElementById('Y2').value = "0";
     document.getElementById('Z2').value = "0";
+    document.getElementById('walking_time').value = "0";
+    document.getElementById('running_time').value = "0";
+    document.getElementById('flying_time').value = "0";
+
 }
