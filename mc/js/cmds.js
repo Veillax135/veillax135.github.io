@@ -24,11 +24,17 @@ function condense(commands) {
     return base;
 }
 
-function proccessCommands() {
+function processCommands() {
     const textarea = document.getElementById('input-commands');
-    const text = textarea.value;
+    const text = textarea.value.trim(); // Trim whitespace from both ends
     const commandsArray = text.split('\n');
     const filteredCommandsArray = commandsArray.filter(command => command.trim().length >  0);
-    
-    document.getElementById("output-command").value = condense(filteredCommandsArray);
+
+    // Check if the trimmed text is empty after splitting
+    if (text === '') {
+        alert('Warning: The input field is empty. Please enter some commands.');
+        return; // Exit the function early if there's no input
+    } else {
+        document.getElementById("output-command").value = condense(filteredCommandsArray);
+    }
 }
