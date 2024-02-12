@@ -118,5 +118,5 @@ function resetDist() {
     document.getElementById('X2').value = "0";
     document.getElementById('Y2').value = "0";
     document.getElementById('Z2').value = "0";
-    document.getElementById('speed').innerHTML = "It will take 0 minutes while walking, 0 minutes while running, and 0 minutes while flying to reach your destination";
+    document.getElementById('dist_speed').innerHTML = "It will take 0 minutes while walking, 0 minutes while running, and 0 minutes while flying to reach your destination";
 }
