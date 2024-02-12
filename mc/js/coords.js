@@ -72,9 +72,7 @@ function handleDistChange() {
     const point2 = [X2, Y2, Z2];
     const dist = distance(point1, point2);
     document.getElementById('D').value = dist[0].toFixed(2);
-    document.getElementById('walking_time').value = dist[1];
-    document.getElementById('running_time').value = dist[2];
-    document.getElementById('flying_time').value = dist[3];
+    document.getElementById('speed').value = `It will take ${dist[1]} minutes while walking, ${dist[2]} minutes while running, and ${dist[3]} minutes while flying to reach your destination`;
 }
 
 // Event handler for Overworld to Nether conversion
@@ -117,8 +115,5 @@ function resetDist() {
     document.getElementById('X2').value = "0";
     document.getElementById('Y2').value = "0";
     document.getElementById('Z2').value = "0";
-    document.getElementById('walking_time').value = "0";
-    document.getElementById('running_time').value = "0";
-    document.getElementById('flying_time').value = "0";
-
+    document.getElementById('speed').value = "It will take 0 minutes while walking, 0 minutes while running, and 0 minutes while flying to reach your destination";
 }
