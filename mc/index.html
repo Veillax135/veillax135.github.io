@@ -20,10 +20,11 @@
     <link rel="apple-touch-icon" href="https://www.veillax.com/img/apple-touch-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        .convertOvtoNe{
+        .convertOvtoNe {
             width: 195px;
         }
-        .convertNetoOv{
+
+        .convertNetoOv {
             width: 195px;
         }
 
@@ -31,25 +32,26 @@
             width: 160px;
         }
 
+        .commands {
+            display: flex;
+            justify-content: center;
+        }
+
+        .info {
+            display: flex;
+            justify-content: center;
+        }
+
         #D {
-            background: rgb(255, 255, 255); color: rgb(74, 74, 74);
+            background: rgb(255, 255, 255);
+            color: rgb(74, 74, 74);
         }
 
-        .commands{
+        #generate {
             display: flex;
             justify-content: center;
         }
 
-        #info{
-            display: flex;
-            justify-content: center;
-        }
-
-        #generate{
-            display: flex;
-            justify-content: center;
-        }
-          
         #footer {
             background-color: #201d26 !important;
         }
@@ -97,6 +99,7 @@
     <div id="contents" class="container align-items-center justify-content-center">
         <br><br>
         <div class="text-center">
+            <h3>Coordinates conversion</h3>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
@@ -134,6 +137,9 @@
                     </tbody>
                 </table>
             </div>
+            <small class="info">This can convert overworld to nether coordinates to help you link portals. Just input
+                the coordinades on one side to the other to convert between the two schemes</small>
+            <br>
             <a class="btn btn-danger" onclick="resetCoords()">Reset</a>
         </div>
         <br><br>
@@ -179,20 +185,27 @@
                     </tbody>
                 </table>
             </div>
+            <small class="info">This can calculate the distance between two coordinate pairs. Just input the coordinates
+                and it will output the distance on the right with an accuracy of two decimals</small>
+            <br>
             <a class="btn btn-danger" onclick="resetDist()">Reset</a>
         </div>
-        <br><hr><br>
-        <p id="info" align="center">This tool will combine many commands into one command block!<br> Simply type in commands with each command on a seperate line, and press 'Generate'!</p>
+        <br>
+        <hr><br>
+        <p id="info" align="center">This tool will combine many commands into one command block!<br> Simply type in
+            commands with each command on a seperate line, and press 'Generate'!</p>
         <div id="generate">
             <a type="button" class="btn btn-primary" onclick="processCommands()">Generate</a>
         </div>
         <br>
         <div class="commands container align-items-center justify-content-center">
-			<textarea id="input-commands" rows="14" cols="120" placeholder="Write or paste a bunch of commands in here, separated by whatever you specified above!"></textarea>
-		</div>
+            <textarea id="input-commands" rows="14" cols="120"
+                placeholder="Write or paste a bunch of commands in here, separated by whatever you specified above!"></textarea>
+        </div>
         <br><br>
         <div class="commands container align-items-center justify-content-center">
-            <textarea id="output-command" rows="14" cols="120" placeholder="Your command will appear here" readonly></textarea>
+            <textarea id="output-command" rows="14" cols="120" placeholder="Your command will appear here"
+                readonly></textarea>
         </div>
     </div>
     <br><br><br>
@@ -205,7 +218,8 @@
     </div>
     <script type="text/javascript" src="https://www.veillax.com/mc/js/coords.js"></script>
     <script type="text/javascript" src="https://www.veillax.com/mc/js/cmds.js"></script>
-    <script type="text/javascript" src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript"
+        src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
