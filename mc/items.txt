@@ -45,7 +45,7 @@ Melon Seeds
 Minecart
 Minecart with Chest
 Minecart with Command Block
-Minecart with FurnaceMineca
+Minecart with Furnace
 Minecart with Hopper
 Minecart with TNT
 Nether Wart
@@ -67,7 +67,7 @@ Torchflower Seeds
 Trident
 Water Bucket
 Wheat Seeds
-Amethyst Shard#Allay duplicationAm
+Amethyst Shard
 Apple
 Arrow
 Baked Potato
@@ -77,7 +77,7 @@ Black Dye
 Blue Dye
 Bone
 Bone Meal
-BookBook (to interact wi
+Book
 Book and Quill
 Bowl
 Bread
@@ -113,7 +113,7 @@ Diamond Sword
 Dried Kelp
 Elytra
 Empty Map
-Enchanted BookEnchanted Book (to i
+Enchanted Book
 Enchanted Golden Apple
 Goat Horn
 Glass Bottle
@@ -142,13 +142,13 @@ Iron Chestplate
 Iron Helmet
 Iron Hoe
 Iron Horse Armor
-Iron Ingot#Healing iron golemsI
+Iron Ingot
 Iron Leggings
 Iron Pickaxe
 Iron Shovel
 Iron Sword
-Knowledge BookKnowle
-Lapis LazuliLapis Lazuli
+Knowledge Book
+Lapis Lazuli
 Leather Boots
 Leather Cap
 Leather Horse Armor
@@ -162,22 +162,22 @@ MapMap or E
 Melon Slice
 Milk Bucket
 Mushroom Stew
-Music DiscMu
-Music DiscMus
-Music DiscMus
-Music DiscMusic
-Music DiscMus
-Music DiscMusi
-Music DiscMus
-Music DiscMusi
-Music DiscMusic
-Music DiscMusic
-Music DiscMusic
-Music DiscMusi
-Music DiscMusi
-Music DiscMusi
-Music DiscMusi
-Music DiscMusi
+Music Disc (5)
+Music Disc (11)
+Music Disc (13)
+Music Disc (Blocks)
+Music Disc (Cat)
+Music Disc (Chirp)
+Music Disc (Far)
+Music Disc (Mall)
+Music Disc (Mellohi)
+Music Disc (Otherside)
+Music Disc (Pigstep)
+Music Disc (Relic)
+Music Disc (Stal)
+Music Disc (Strad)
+Music Disc (Wait)
+Music Disc (Ward)
 Name Tag
 Netherite Axe
 Netherite Boots
@@ -192,7 +192,7 @@ Orange Dye
 Pink Dye
 Poisonous Potato
 PotionP
-Pufferfish (it
+Pufferfish
 Pumpkin Pie
 Purple Dye
 Rabbit Stew
@@ -236,12 +236,12 @@ Yellow Dye
 Angler Pottery Sherd
 Archer Pottery Sherd
 Arms Up Pottery Sherd
-Banner PatternBanner Pa
-Banner PatternBanner P
-Banner PatternBann
-Banner PatternBanner P
-Banner PatternBann
-Banner PatternBann
+Banner Pattern (Creeper Charge)
+Banner Pattern (Flower Charge) 
+Banner Pattern (Globe)
+Banner Pattern (Skull Charge)
+Banner Pattern (Snout)
+Banner Pattern (Thing)
 Blade Pottery Sherd
 Blaze Powder
 Blaze Rod
@@ -359,7 +359,6 @@ Llama Spawn Egg
 Magma Cube Spawn Egg
 Mooshroom Spawn Egg
 Mule Spawn Egg
-Spawn NPCSpawn NPC‌[
 Ocelot Spawn Egg
 Panda Spawn Egg
 Parrot Spawn Egg
