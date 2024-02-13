@@ -1,13 +1,48 @@
 Acacia Boat
 Acacia Boat with Chest
+Allay Spawn Egg
+Amethyst Shard
+Angler Pottery Sherd
+Apple
+Archer Pottery Sherd
 Armor Stand
+Arms Up Pottery Sherd
+Arrow
+Axolotl Spawn Egg
+Baked Potato
 Bamboo Raft
 Bamboo Raft with Chest
+Banner Pattern (Creeper Charge)
+Banner Pattern (Flower Charge) 
+Banner Pattern (Globe)
+Banner Pattern (Skull Charge)
+Banner Pattern (Snout)
+Banner Pattern (Thing)
+Bat Spawn Egg
+Bee Spawn Egg
+Beetroot
 Beetroot Seeds
+Beetroot Soup
 Birch Boat
 Birch Boat with Chest
+Black Dye
+Blade Pottery Sherd
+Blaze Powder
+Blaze Rod
+Blaze Spawn Egg
+Blue Dye
+Bone
+Bone Meal
+Book
+Book and Quill
 Bottle o' Enchanting
 Bow
+Bowl
+Bread
+Brewer Pottery Sherd
+Brick
+Brown Dye
+Brush
 Bucket
 Bucket of Axolotl
 Bucket of Cod
@@ -15,81 +50,28 @@ Bucket of Pufferfish
 Bucket of Salmon
 Bucket of Tadpole
 Bucket of Tropical Fish
-Carrot
-Cherry Boat
-Cherry Boat with Chest
-Cocoa Beans
-Crossbow
-Dark Oak Boat
-Dark Oak Boat with Chest
-Egg
-End Crystal
-Ender Pearl
-Eye of Ender
-Fire Charge
-Firework Rocket
-Fishing Rod
-Flint and Steel
-Glow Berries
-Glow Item Frame
-Item Frame
-Jungle Boat
-Jungle Boat with Chest
-Kelp
-Lava Bucket
-Lead
-Lingering Potion
-Mangrove Boat
-Mangrove Boat with Chest
-Melon Seeds
-Minecart
-Minecart with Chest
-Minecart with Command Block
-Minecart with Furnace
-Minecart with Hopper
-Minecart with TNT
-Nether Wart
-Oak Boat
-Oak Boat with Chest
-Painting
-Pitcher Pod
-Potato
-Powder Snow Bucket
-Pumpkin Seeds
-Redstone Dust
-Snowball
-Splash Potion
-Spruce Boat
-Spruce Boat with Chest
-String
-Sweet Berries
-Torchflower Seeds
-Trident
-Water Bucket
-Wheat Seeds
-Amethyst Shard
-Apple
-Arrow
-Baked Potato
-Beetroot
-Beetroot Soup
-Black Dye
-Blue Dye
-Bone
-Bone Meal
-Book
-Book and Quill
-Bowl
-Bread
-Brown Dye
-Brush
 Bundle
+Burn Pottery Sherd
+Camel Spawn Egg
+Carrot
 Carrot on a Stick
+Cat Spawn Egg
+Cave Spider Spawn Egg
 Chainmail Boots
 Chainmail Chestplate
 Chainmail Helmet
 Chainmail Leggings
+Charcoal
+Cherry Boat
+Cherry Boat with Chest
+Chicken Spawn Egg
 Chorus Fruit
+Clay Ball
+Clock
+Coal
+Coast Armor Trim
+Cocoa Beans
+Cod Spawn Egg
 Compass
 Cooked Chicken
 Cooked Cod
@@ -98,8 +80,16 @@ Cooked Porkchop
 Cooked Rabbit
 Cooked Salmon
 Cookie
+Copper Ingot
+Cow Spawn Egg
+Creeper Spawn Egg
+Crossbow
 Cyan Dye
+Danger Pottery Sherd
+Dark Oak Boat
+Dark Oak Boat with Chest
 Debug StickDebug
+Diamond
 Diamond Axe
 Diamond Boots
 Diamond Chestplate
@@ -110,15 +100,54 @@ Diamond Leggings
 Diamond Pickaxe
 Diamond Shovel
 Diamond Sword
+Disc Fragment
+Dolphin Spawn Egg
+Donkey Spawn Egg
+Dragon's Breath
 Dried Kelp
+Drowned Spawn Egg
+Dune Armor Trim
+Echo Shard
+Egg
+Elder Guardian Spawn Egg
 Elytra
+Emerald
 Empty Map
 Enchanted Book
 Enchanted Golden Apple
-Goat Horn
+End Crystal
+Ender Dragon Spawn Egg
+Ender Pearl
+Enderman Spawn Egg
+Endermite Spawn Egg
+Evoker Spawn Egg
+Explorer Pottery Sherd
+Eye Armor Trim
+Eye of Ender
+Feather
+Fermented Spider Eye
+Fire Charge
+Firework Rocket
+Firework Star
+Fishing Rod
+Flint
+Flint and Steel
+Fox Spawn Egg
+Friend Pottery Sherd
+Frog Spawn Egg
+Ghast Spawn Egg
+Ghast Tear
 Glass Bottle
+Glistering Melon Slice
+Glow Berries
 Glow Ink Sac
+Glow Item Frame
+Glow Squid Spawn Egg
+Glowstone Dust
+Goat Horn
+Goat Spawn Egg
 Gold Ingot
+Gold Nugget
 Golden Apple
 Golden Axe
 Golden Boots
@@ -133,22 +162,44 @@ Golden Shovel
 Golden Sword
 Gray Dye
 Green Dye
-Honeycomb
+Guardian Spawn Egg
+Gunpowder
+Heart Pottery Sherd
+Heart of the Sea
+Heartbreak Pottery Sherd
+Hoglin Spawn Egg
 Honey Bottle
+Honeycomb
+Horse Spawn Egg
+Host Armor Trim
+Howl Pottery Sherd
+Husk Spawn Egg
+Ink Sac
 Ink Sac
 Iron Axe
 Iron Boots
 Iron Chestplate
+Iron Golem Spawn Egg
 Iron Helmet
 Iron Hoe
 Iron Horse Armor
 Iron Ingot
+Iron Ingot
 Iron Leggings
+Iron Nugget
 Iron Pickaxe
 Iron Shovel
 Iron Sword
+Item Frame
+Jungle Boat
+Jungle Boat with Chest
+Kelp
 Knowledge Book
 Lapis Lazuli
+Lapis Lazuli
+Lava Bucket
+Lead
+Leather
 Leather Boots
 Leather Cap
 Leather Horse Armor
@@ -157,14 +208,31 @@ Leather Tunic
 Light Blue Dye
 Light Gray Dye
 Lime Dye
+Lingering Potion
+Llama Spawn Egg
 Magenta Dye
+Magma Cream
+Magma Cube Spawn Egg
+Mangrove Boat
+Mangrove Boat with Chest
 MapMap or E
+Melon Seeds
 Melon Slice
 Milk Bucket
+Minecart
+Minecart with Chest
+Minecart with Command Block
+Minecart with Furnace
+Minecart with Hopper
+Minecart with TNT
+Miner Pottery Sherd
+Mooshroom Spawn Egg
+Mourner Pottery Sherd
+Mule Spawn Egg
 Mushroom Stew
-Music Disc (5)
 Music Disc (11)
 Music Disc (13)
+Music Disc (5)
 Music Disc (Blocks)
 Music Disc (Cat)
 Music Disc (Chirp)
@@ -179,53 +247,149 @@ Music Disc (Strad)
 Music Disc (Wait)
 Music Disc (Ward)
 Name Tag
+Nautilus Shell
+Nether Brick
+Nether Quartz
+Nether Star
+Nether Wart
 Netherite Axe
 Netherite Boots
 Netherite Chestplate
 Netherite Helmet
 Netherite Hoe
+Netherite Ingot
 Netherite Leggings
 Netherite Pickaxe
+Netherite Scrap
 Netherite Shovel
 Netherite Sword
+Netherite Upgrade
+Oak Boat
+Oak Boat with Chest
+Ocelot Spawn Egg
 Orange Dye
+Painting
+Panda Spawn Egg
+Paper
+Parrot Spawn Egg
+Phantom Membrane
+Phantom Spawn Egg
+Pig Spawn Egg
+Piglin Brute Spawn Egg
+Piglin Spawn Egg
+Pillager Spawn Egg
 Pink Dye
+Pitcher Pod
+Plenty Pottery Sherd
 Poisonous Potato
+Polar Bear Spawn Egg
+Popped Chorus Fruit
+Potato
 PotionP
+Powder Snow Bucket
+Prismarine Crystals
+Prismarine Shard
+Prize Pottery Sherd
 Pufferfish
+Pufferfish Spawn Egg
 Pumpkin Pie
+Pumpkin Seeds
 Purple Dye
+Rabbit Hide
+Rabbit Spawn Egg
 Rabbit Stew
+Rabbit's Foot
+Raiser Armor Trim
+Ravager Spawn Egg
 Raw Beef
 Raw Chicken
 Raw Cod
+Raw Copper
+Raw Gold
+Raw Iron
 Raw Mutton
 Raw Porkchop
 Raw Rabbit
 Raw Salmon
+Recovery Compass
 Red Dye
+Redstone Dust
+Rib Armor Trim
 Rotten Flesh
 Saddle
+Salmon Spawn Egg
+Scute
+Sentry Armor Trim
+Shaper Armor Trim
+Sheaf Pottery Sherd
 Shears
+Sheep Spawn Egg
+Shelter Pottery Sherd
 Shield
+Shulker Shell
+Shulker Spawn Egg
+Silence Armor Trim
+Silverfish Spawn Egg
+Skeleton Horse Spawn Egg
+Skeleton Spawn Egg
+Skull Pottery Sherd
+Slime Spawn Egg
+Slimeball
+Sniffer Spawn Egg
+Snort Pottery Sherd
+Snow Golem Spawn Egg
+Snowball
 Spectral ArrowSpectr
 Spider Eye
+Spider Spawn Egg
+Spire Armor Trim
+Splash Potion
+Spruce Boat
+Spruce Boat with Chest
 Spyglass
+Squid Spawn Egg
 Steak
+Stick
 Stone Axe
 Stone Hoe
 Stone Pickaxe
 Stone Shovel
 Stone Sword
+Stray Spawn Egg
+Strider Spawn Egg
+String
 Sugar
 Suspicious Stew
+Sweet Berries
+Tadpole Spawn Egg
+Tide Armor Trim
 Tipped Arrow
+Torchflower Seeds
 Totem of Undying
+Trader Llama Spawn Egg
+Trident
 Tropical Fish
+Tropical Fish Spawn Egg
 Turtle Shell
+Turtle Spawn Egg
+Vex Armor Trim
+Vex Spawn Egg
+Villager Spawn Egg
+Vindicator Spawn Egg
+Wandering Trader Spawn Egg
+Ward Armor Trim
+Warden Spawn Egg
 Warped Fungus on a Stick
+Water Bucket
+Wayfinder Armor Trim
 Wheat
+Wheat Seeds
 White Dye
+Wild Armor Trim
+Witch Spawn Egg
+Wither Skeleton Spawn Egg
+Wither Spawn Egg
+Wolf Spawn Egg
 Wooden Axe
 Wooden Hoe
 Wooden Pickaxe
@@ -233,170 +397,6 @@ Wooden Shovel
 Wooden Sword
 Written Book
 Yellow Dye
-Angler Pottery Sherd
-Archer Pottery Sherd
-Arms Up Pottery Sherd
-Banner Pattern (Creeper Charge)
-Banner Pattern (Flower Charge) 
-Banner Pattern (Globe)
-Banner Pattern (Skull Charge)
-Banner Pattern (Snout)
-Banner Pattern (Thing)
-Blade Pottery Sherd
-Blaze Powder
-Blaze Rod
-Brewer Pottery Sherd
-Brick
-Burn Pottery Sherd
-Charcoal
-Clay Ball
-Clock
-Coal
-Coast Armor Trim
-Copper Ingot
-Danger Pottery Sherd
-Diamond
-Disc Fragment
-Dragon's Breath
-Dune Armor Trim
-Echo Shard
-Emerald
-Explorer Pottery Sherd
-Eye Armor Trim
-Feather
-Fermented Spider Eye
-Firework Star
-Flint
-Friend Pottery Sherd
-Ghast Tear
-Glistering Melon Slice
-Glowstone Dust
-Gold Nugget
-Gunpowder
-Heart of the Sea
-Heart Pottery Sherd
-Heartbreak Pottery Sherd
-Host Armor Trim
-Howl Pottery Sherd
-Ink Sac
-Iron Ingot
-Iron Nugget
-Lapis Lazuli
-Leather
-Magma Cream
-Miner Pottery Sherd
-Mourner Pottery Sherd
-Nautilus Shell
-Nether Brick
-Nether Quartz
-Nether Star
-Netherite Ingot
-Netherite Scrap
-Netherite Upgrade
-Paper
-Phantom Membrane
-Plenty Pottery Sherd
-Popped Chorus Fruit
-Prismarine Crystals
-Prismarine Shard
-Prize Pottery Sherd
-Rabbit Hide
-Rabbit's Foot
-Raiser Armor Trim
-Raw Copper
-Raw Gold
-Raw Iron
-Recovery Compass
-Rib Armor Trim
-Scute
-Sentry Armor Trim
-Shaper Armor Trim
-Sheaf Pottery Sherd
-Shelter Pottery Sherd
-Shulker Shell
-Silence Armor Trim
-Skull Pottery Sherd
-Slimeball
-Snort Pottery Sherd
-Spire Armor Trim
-Stick
-Tide Armor Trim
-Vex Armor Trim
-Ward Armor Trim
-Wayfinder Armor Trim
-Wild Armor Trim
-Allay Spawn Egg
-Axolotl Spawn Egg
-Bat Spawn Egg
-Bee Spawn Egg
-Blaze Spawn Egg
-Camel Spawn Egg
-Cat Spawn Egg
-Cave Spider Spawn Egg
-Chicken Spawn Egg
-Cod Spawn Egg
-Cow Spawn Egg
-Creeper Spawn Egg
-Dolphin Spawn Egg
-Donkey Spawn Egg
-Drowned Spawn Egg
-Elder Guardian Spawn Egg
-Ender Dragon Spawn Egg
-Enderman Spawn Egg
-Endermite Spawn Egg
-Evoker Spawn Egg
-Fox Spawn Egg
-Frog Spawn Egg
-Ghast Spawn Egg
-Glow Squid Spawn Egg
-Goat Spawn Egg
-Guardian Spawn Egg
-Hoglin Spawn Egg
-Horse Spawn Egg
-Husk Spawn Egg
-Iron Golem Spawn Egg
-Llama Spawn Egg
-Magma Cube Spawn Egg
-Mooshroom Spawn Egg
-Mule Spawn Egg
-Ocelot Spawn Egg
-Panda Spawn Egg
-Parrot Spawn Egg
-Phantom Spawn Egg
-Pig Spawn Egg
-Piglin Spawn Egg
-Piglin Brute Spawn Egg
-Pillager Spawn Egg
-Polar Bear Spawn Egg
-Pufferfish Spawn Egg
-Rabbit Spawn Egg
-Ravager Spawn Egg
-Salmon Spawn Egg
-Sheep Spawn Egg
-Shulker Spawn Egg
-Silverfish Spawn Egg
-Skeleton Horse Spawn Egg
-Skeleton Spawn Egg
-Slime Spawn Egg
-Sniffer Spawn Egg
-Snow Golem Spawn Egg
-Spider Spawn Egg
-Squid Spawn Egg
-Stray Spawn Egg
-Strider Spawn Egg
-Tadpole Spawn Egg
-Trader Llama Spawn Egg
-Tropical Fish Spawn Egg
-Turtle Spawn Egg
-Vex Spawn Egg
-Villager Spawn Egg
-Vindicator Spawn Egg
-Wandering Trader Spawn Egg
-Warden Spawn Egg
-Witch Spawn Egg
-Wither Skeleton Spawn Egg
-Wither Spawn Egg
-Wolf Spawn Egg
 Zoglin Spawn Egg
 Zombie Horse Spawn Egg
 Zombie Spawn Egg
