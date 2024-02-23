@@ -1,89 +1,3 @@
-{
-    "Tools": {
-        "Netherite": [
-            "Netherite Axe",
-            "Netherite Pickaxe",
-            "Netherite Sword",
-            "Netherite Shovel",
-            "Netherite Hoe",
-        ],
-        "Diamond": [
-            "Diamond Axe",
-            "Diamond Pickaxe",
-            "Diamond Sword",
-            "Diamond Shovel",
-            "Diamond Hoe",
-        ],
-        "Gold": [
-            "Gold Axe",
-            "Gold Pickaxe",
-            "Gold Sword",
-            "Gold Shovel",
-            "Gold Hoe",
-        ],
-        "Iron": [
-            "Iron Axe",
-            "Iron Pickaxe",
-            "Iron Sword",
-            "Iron Shovel",
-            "Iron Hoe",
-        ],
-        "Stone": [
-            "Stone Axe",
-            "Stone Pickaxe",
-            "Stone Sword",
-            "Stone Shovel",
-            "Stone Hoe",
-        ],
-        "Wooden": [
-            "Wooden Axe",
-            "Wooden Pickaxe",
-            "Wooden Sword",
-            "Wooden Shovel",
-            "Wooden Hoe",
-        ]
-    },
-
-    "Armor": {
-        "Netherite": [
-            "Netherite Helmet",
-            "Netherite Chestplate",
-            "Netherite Leggings",
-            "Netherite Boots",
-        ],
-        "Diamond": [
-            "Diamond Helmet",
-            "Diamond Chestplate",
-            "Diamond Leggings",
-            "Diamond Boots",
-        ],
-        "Golden": [
-            "Golden Helmet",
-            "Golden Chestplate",
-            "Golden Leggings",
-            "Golden Boots",
-        ],
-        "Iron": [
-            "Iron Helmet",
-            "Iron Chestplate",
-            "Iron Leggings",
-            "Iron Boots",
-        ],
-        "Chainmail": [
-            "Chainmail Helmet",
-            "Chainmail Chestplate",
-            "Chainmail Leggings",
-            "Chainmail Boots",
-        ],
-        "Leather": [
-            "Leather Helmet",
-            "Leather Chestplate",
-            "Leather Leggings",
-            "Leather Boots",
-        ]
-    }
-}
-
 Acacia Boat
 Acacia Boat with Chest
 Allay Spawn Egg
@@ -176,6 +90,7 @@ Dark Oak Boat
 Dark Oak Boat with Chest
 Debug StickDebug
 Diamond
+Diamond Axe
 Diamond Boots
 Diamond Chestplate
 Diamond Helmet
@@ -337,6 +252,17 @@ Nether Brick
 Nether Quartz
 Nether Star
 Nether Wart
+Netherite Axe
+Netherite Boots
+Netherite Chestplate
+Netherite Helmet
+Netherite Hoe
+Netherite Ingot
+Netherite Leggings
+Netherite Pickaxe
+Netherite Scrap
+Netherite Shovel
+Netherite Sword
 Netherite Upgrade
 Oak Boat
 Oak Boat with Chest
