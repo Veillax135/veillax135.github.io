@@ -11,10 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 photoDiv.innerHTML = `
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="${imageUrl}" rel="preload">
-                            <img src="${imageUrl}" alt="Image" class="card-img">
-                        </a>
-                    </h4>
+=                        <img src="${imageUrl}" alt="Image" class="card-img">
+=                    </h4>
                 </div>
             `;
 
